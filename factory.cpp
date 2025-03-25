@@ -55,8 +55,6 @@ void ClientCode(const Creator& creator) {
               << creator.SomeOperation() << std::endl;
 }
 
-//테스트 주석
-
 int main() {
     ConcreteCreator1 creatorA;
     ClientCode(creatorA);
